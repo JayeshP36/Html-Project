@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% Times New Roman, Serif;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav-1 {
+  justify-content: center;
+}
+nav .nav-2 {
+  background: #666666;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  height: 35px;
+}
+.navbar-nav li {
+  padding-right: 10px;
+}
+.navbar-nav .dropdown {
+  width: 120px;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.cover {
+  width: 100%;
+}
+
+.cards {
+  width: 26vw;
+  background-color: rgba(182, 208, 205, 0.2117647059);
+  margin: 5px;
+}
+.cards div .img1 {
+  margin: auto;
+  display: flex;
+  width: 150px;
+  height: 200px;
+}
+.cards .btn {
+  color: orange;
+}
+.cards .btn:hover {
+  color: black;
+  background: orange;
+  transition: all 0.5s ease-out;
+}
+.cards h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.cards h6 {
+  font-size: 0.8rem;
+}
+
+.footer1 {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scroll {
+  background-image: url("./images/lab-test.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
